@@ -109,7 +109,7 @@ private:
 	int inListenToList(char * remoteHostName);
 	int findHostInrelayOuts(int tcpSd);
 	bool compareTwoCharArray(char* char1, char* char2);
-    bool groupIpInHeader(char* msgPassIn);
+        bool groupIpInHeader(char* msgPassIn);
 	void addIpToHead(char* msgPassIn);
 	void readIpFromMsg(const char* bytesMsg, char* ipAddr);
 	void sendMsgToTCP(char* message);

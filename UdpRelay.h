@@ -51,12 +51,12 @@ public:
 	int tcpSd;
 
 
-	//pthread_t getRelayOut() {
-	//	return relayOutThread;
-	//}
-	//string getRemoteHost() {
-	//	return remoteHostName;
-	//}
+	pthread_t getRelayOut() {
+		return relayOutThread;
+        }
+	string getRemoteHost() {
+		return remoteHostName;
+	}
 
 private:
 	relayOutWithHost();
